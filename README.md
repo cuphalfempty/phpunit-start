@@ -1,13 +1,16 @@
-Quick setup for PHPUnit testing.
+# Quick setup for PHPUnit testing.
 
 
 
-Download composer:
-$ curl -sS https://getcomposer.org/installer | php
+## Download composer:
 
-Download phpunit:
-$ php composer.phar update
+	$ curl -sS https://getcomposer.org/installer | php
 
-Do test:
-$ vendor/phpunit/phpunit/phpunit.php RegexpTest.php
+## Download phpunit:
+
+	$ php composer.phar update
+
+## Do test:
+
+	$ vendor/phpunit/phpunit/phpunit.php RegexpTest.php
 
