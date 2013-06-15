@@ -2,6 +2,9 @@
 require_once "vendor/autoload.php";
 require_once "Regexp.php";
 
+/**
+ * Example test with data privider
+ */
 class RegexpTest extends PHPUnit_Framework_TestCase
 {
     protected function setUp() {
